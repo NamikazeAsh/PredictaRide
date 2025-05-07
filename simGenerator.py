@@ -34,3 +34,6 @@ def generate_ride_data(n):
 
 ride_data = generate_ride_data(num_records)
 print(ride_data.head())
+
+ride_data.to_csv("rides.csv", index=False)
+
